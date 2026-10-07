@@ -1,0 +1,6 @@
+comparison,A_only_correct,B_only_correct,diff_pp(B-A),p_value
+EN-4 (generic) vs TH-mixed,2,15,7.9,0.0023
+EN-2 vs TH-mixed,2,13,6.7,0.0074
+EN-2 vs TH-full,18,14,-2.4,0.5966
+TH-mixed vs TH-full,22,7,-9.1,0.0081
+EN-4 (generic) vs TH-full,17,15,-1.2,0.8601

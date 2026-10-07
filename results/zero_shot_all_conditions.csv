@@ -1,0 +1,14 @@
+backbone,prompt,n_prompts_per_class,top1_%,top3_%,macroF1
+ViT-B-32,single,3,73.3,96.4,0.639
+ViT-B-32,generic,12,75.2,96.4,0.649
+ViT-B-32,context,12,75.8,93.9,0.638
+ViT-B-16,single,3,68.5,94.5,0.721
+ViT-B-16,generic,12,72.7,95.2,0.734
+ViT-B-16,context,12,78.2,95.8,0.733
+ViT-L-14,single,3,73.9,98.2,0.668
+ViT-L-14,generic,12,77.0,98.2,0.716
+ViT-L-14,context,12,79.4,97.6,0.72
+xlm-roberta-base-ViT-B-32,single,3,70.3,93.3,0.601
+xlm-roberta-base-ViT-B-32,generic,12,69.7,93.9,0.597
+xlm-roberta-base-ViT-B-32,context,12,69.7,93.9,0.598
+xlm-roberta-base-ViT-B-32,th_mixed,6,77.6,93.9,0.673

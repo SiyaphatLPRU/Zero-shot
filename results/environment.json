@@ -1,0 +1,8 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "open_clip": "3.3.0",
+  "sklearn": "1.6.1",
+  "device": "cuda",
+  "gpu": "Tesla T4"
+}

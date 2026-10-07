@@ -1,0 +1,14 @@
+family,A,B,A_only_correct,B_only_correct,diff_pp(B-A),p_exact,p_holm,sig_0.05
+single vs ensemble,ViT-B-32|single,ViT-B-32|generic,1,4,1.8,0.375,1.0,False
+single vs ensemble,ViT-B-16|single,ViT-B-16|generic,3,10,4.2,0.09228515625,1.0,False
+single vs ensemble,ViT-L-14|single,ViT-L-14|generic,2,7,3.0,0.1796875,1.0,False
+single vs ensemble,xlm-roberta-base-ViT-B-32|single,xlm-roberta-base-ViT-B-32|generic,2,1,-0.6,1.0,1.0,False
+generic vs context,ViT-B-32|generic,ViT-B-32|context,2,3,0.6,1.0,1.0,False
+generic vs context,ViT-B-16|generic,ViT-B-16|context,4,13,5.5,0.049041748046875,0.5885009765625,False
+generic vs context,ViT-L-14|generic,ViT-L-14|context,3,7,2.4,0.34375,1.0,False
+EN vs TH-mixed,xlm-roberta-base-ViT-B-32|generic,xlm-roberta-base-ViT-B-32|th_mixed,2,15,7.9,0.002349853515625,0.030548095703125,True
+backbone,ViT-B-32|generic,ViT-B-16|generic,21,17,-2.4,0.6271025701571489,1.0,False
+backbone,ViT-B-32|generic,ViT-L-14|generic,16,19,1.8,0.735878800856881,1.0,False
+backbone,ViT-B-16|generic,ViT-L-14|generic,16,23,4.2,0.3367836351899315,1.0,False
+backbone,ViT-B-32|generic,xlm-roberta-base-ViT-B-32|generic,16,7,-5.5,0.0931396484375,1.0,False
+reference vs best,ViT-B-32|generic,ViT-L-14|context,12,19,4.2,0.28104151505976915,1.0,False
